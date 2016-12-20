@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Francisco Perez Personal Page</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">   
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse">
+      <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- MAIN CONTENT HERE -->
+  <%- defineContent('hero') %>
+
+  <main>
+    <div class="container">
+      <%- body %>
+    </div>
+  </main>
+
+  <footer>
+    F4Prez Copyright &copy; 2016
+   <a href="https://www.linkedin.com/in/f4francisco" class="w3-hover-text-indigo"><i class="fa fa-linkedin" style="font-size:20px"></i></a>
+    <a href="https://github.com/F4Francisco" class="w3-hover-text-gray"><i class="fa fa-github" style="font-size:20px"></i></a>
+  </footer>
+</body>
+</html>

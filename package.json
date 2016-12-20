@@ -1,0 +1,26 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "My personal website using node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/F4Francisco.git"
+  },
+  "author": "Francisco Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F4Francisco/"
+  },
+  "homepage": "https://github.com/github.com/F4Francisco#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
